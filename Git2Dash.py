@@ -83,7 +83,7 @@ def create_db(doc_name, index_html_name):
     conn.close()
 
 
-copy_file("progit-zh.936", "git_zh.docset")
-create_xml("git_zh.docset", "git", "Git_zh", "git",
+copy_file("progit-zh.936", "Git_zh.docset")
+create_xml("Git_zh.docset", "git", "Git_zh", "git",
            "toc.html")
-create_db("git_zh.docset", "index.html")
+create_db("Git_zh.docset", "index.html")
